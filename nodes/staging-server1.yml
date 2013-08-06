@@ -1,0 +1,10 @@
+json:
+  chef_environment: staging
+
+roles:
+  - web_server
+
+recipes:
+
+server:
+  host: ec2-xxx-xxx-xxx-xxx.us-west-2.compute.amazonaws.com

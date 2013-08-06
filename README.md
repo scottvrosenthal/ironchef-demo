@@ -4,9 +4,9 @@ This is an ec2 demo using the [iron_chef](https://github.com/scottvrosenthal/iro
 
 Demo has examples of:
 
-  - how the `iron_chef` gem makes it to automate sever setups with chef solo
-  - update & install yum packages for base server setups
-  - set up the nginx repo and installs nginx from the repo
+  - how the `iron_chef` gem makes it easy to automate sever setups with chef solo
+  - updates & installs yum packages for base server setups
+  - adds the nginx repo and installs nginx
   - uses nodes and roles to show the flexiblity
 
 You'll need the following to actually run the demo:

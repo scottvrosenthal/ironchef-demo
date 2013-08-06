@@ -4,7 +4,8 @@ This is an ec2 demo using the [iron_chef](https://github.com/scottvrosenthal/iro
 
 Demo has examples of:
 
-  - how to update & install yum packages for base server setups
+  - how the `iron_chef` gem makes it to automate sever setups with chef solo
+  - update & install yum packages for base server setups
   - set up the nginx repo and installs nginx from the repo
   - uses nodes and roles to show the flexiblity
 
@@ -22,5 +23,3 @@ Once you have the instance up and running and your pem downloaded:
   - now run `cap staging-web1 chef:apply`
 
 If everything went as planned you should have an updated ec2 instance with nginx installed.
-
-
